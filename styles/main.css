@@ -1,0 +1,47 @@
+/* font family - Readex Pro*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
+
+* {
+    font-family: "Readex Pro";
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: "#1e7ebb" !important;
+    font-weight: 500;
+}
+
+/* on hovering over link */
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+/* bullet points of unordered list */
+ul {
+    list-style-type: none;
+}
+
+/* divider */
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* hide the boilerplate design by streamlit */
+
+/* hide the hamburger menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* hide the streamlit footer */
+footer {
+    visibility: hidden;
+}
+
+/* hide streamlit header divider */
+header {
+    visibility: hidden;
+}
